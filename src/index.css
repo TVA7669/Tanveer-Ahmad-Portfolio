@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: 99 102 241; /* indigo-500 */
+    --primary-light: 129 140 248; /* indigo-400 */
+    --primary-dark: 79 70 229; /* indigo-600 */
+    --accent: 16 185 129; /* emerald-500 */
+    --accent-light: 52 211 153; /* emerald-400 */
+    --dark-bg: 15 23 42; /* slate-900 */
+    --dark-surface: 30 41 59; /* slate-800 */
+    --light-text: 248 250 252; /* slate-50 */
+    --muted-text: 148 163 184; /* slate-400 */
+  }
+}
+
+@layer components {
+  .font-heading {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+  
+  .text-primary {
+    color: rgb(var(--primary));
+  }
+  
+  .text-accent {
+    color: rgb(var(--accent));
+  }
+  
+  .text-muted-text {
+    color: rgb(var(--muted-text));
+  }
+  
+  .text-light-text {
+    color: rgb(var(--light-text));
+  }
+  
+  .bg-primary {
+    background-color: rgb(var(--primary));
+  }
+  
+  .bg-primary-light {
+    background-color: rgb(var(--primary-light));
+  }
+  
+  .bg-primary-dark {
+    background-color: rgb(var(--primary-dark));
+  }
+  
+  .bg-accent {
+    background-color: rgb(var(--accent));
+  }
+  
+  .bg-dark-bg {
+    background-color: rgb(var(--dark-bg));
+  }
+  
+  .bg-dark-surface {
+    background-color: rgb(var(--dark-surface));
+  }
+  
+  .border-primary {
+    border-color: rgb(var(--primary));
+  }
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(var(--dark-bg));
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--primary));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--primary-light));
+}
