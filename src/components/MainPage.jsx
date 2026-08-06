@@ -8,11 +8,12 @@ import "../assets/css/style.css";
 
 // Images
 import MyImg from "../assets/img/main.png";
-
 import homeowner from "../assets/img/hoc.png";
 import instaflow from "../assets/img/instaflow.png"; // Using agecalculator.png as placeholder for InstaFlow
 import hocBackend from "../assets/img/hocbackend.png"; // Using socialmediabackend.png as placeholder for HOC Backend
-import chessArena from "../assets/img/chess.png"; // Using ethermint.png as placeholder for Blockchain Chess Arena
+import chessArena from "../assets/img/chess.png";
+import iNoteBook from "../assets/img/iNoteBook.png"
+import Weather from "../assets/img/Weather.png"  // Using ethermint.png as placeholder for Blockchain Chess Arena
 
 import cv from "../assets/resume/resume.pdf";
 import Card from "./Card";
@@ -47,6 +48,18 @@ const Portfolio = () => {
         "Developed Home Owner Club, a platform built for everyone who wants to participate in the international property and real estate market. The platform connects property buyers, sellers, and investors worldwide, providing tools for property listing, searching, and investment analysis. Features include user authentication, property management, interactive maps, messaging system, and payment processing. Built with modern web technologies to ensure a seamless user experience.",
       link: "https://github.com/jamtanveerab-web",
     },
+    {
+      image: iNoteBook,
+      title :"iNotebook – Full-Stack Notes App",
+      description:"A full-stack MERN note-taking app with secure user authentication. Users can sign up, log in, and create, edit, and delete personal notes — all protected via JWT-based auth, with a React frontend and Express/MongoDB backend.",
+      link: "https://github.com/jamtanveerab-web",
+    },
+     {
+      image: Weather,
+      title :"PkMausam — Pakistan Weather App",
+      description:"PkMausam is a weather web app that displays real-time weather data for major Pakistani cities. Built with a clean, responsive UI for quick, at-a-glance forecasts.",
+      link: "https://github.com/jamtanveerab-web",
+    }
   ];
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -297,7 +310,7 @@ const Portfolio = () => {
                 <input
                   type="hidden"
                   name="access_key"
-                  value="YOUR_ACCESS_KEY_HERE"
+                  value="5baa6804-5d48-4326-87f4-7c3e8533b623"
                 />
                 
                 <div className="input-group">
