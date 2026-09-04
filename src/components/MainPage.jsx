@@ -14,6 +14,7 @@ import hocBackend from "../assets/img/hocbackend.png"; // Using socialmediabacke
 import chessArena from "../assets/img/chess.png";
 import iNoteBook from "../assets/img/iNoteBook.png"
 import Weather from "../assets/img/Weather.png"  // Using ethermint.png as placeholder for Blockchain Chess Arena
+import Todo_App from "../assets/img/todo.png"  // Using ethermint.png as placeholder for Blockchain Chess Arena
 
 import cv from "../assets/resume/resume.pdf";
 import Card from "./Card";
@@ -52,6 +53,12 @@ const Portfolio = () => {
       image: iNoteBook,
       title :"iNotebook – Full-Stack Notes App",
       description:"A full-stack MERN note-taking app with secure user authentication. Users can sign up, log in, and create, edit, and delete personal notes — all protected via JWT-based auth, with a React frontend and Express/MongoDB backend.",
+      link: "https://github.com/jamtanveerab-web",
+    },
+    {
+      image: Todo_App ,
+      title :"Todo Management App | React + Redux",
+      description:"A responsive task management app built with React and Redux, featuring task creation, completion, filtering, and centralized state management with a clean, user-friendly interface.",
       link: "https://github.com/jamtanveerab-web",
     },
      {
