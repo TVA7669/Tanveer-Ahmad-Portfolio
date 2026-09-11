@@ -1,5 +1,5 @@
 ## About me page.
-##### live link: <a href='https://naeem-ashraf.vercel.app/'>
+##### live link: <a href='https://tanveer-portfoilo.vercel.app/'>
 
 <img src="./src/assets//img/portfolio.png">
 
@@ -11,9 +11,9 @@
 
 
 <ul>
-    <li><a href='https://facebook.com/ChNaeemPansota'> Follow me on Faceobook.</li>
-    <li><a href='https://naeem-ashraf.vercel.app/'> Website.</li>
-    <li><a href='mailto: ngs.naeemashraf@gmail.com'> E-mail </li>
+    <li><a href='https://www.facebook.com/tanveer.ahmad.dev/'> Follow me on Faceobook.</li>
+    <li><a href='https://tanveer-portfoilo.vercel.app/'> Website.</li>
+    <li><a href='mailto: tanveerahmadab@gmail.com'> E-mail </li>
 </ul>
 
 # Getting Started with Create React App
