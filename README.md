@@ -13,7 +13,7 @@
 <ul>
     <li><a href='https://www.facebook.com/tanveer.ahmad.dev/'> Follow me on Faceobook.</li>
     <li><a href='https://tanveer-portfoilo.vercel.app/'> Website.</li>
-    <li><a href='mailto: tanveerahmadab@gmail.com'> E-mail </li>
+    <li><a href='mailto: jamtanveerab@gmail.com'> E-mail </li>
 </ul>
 
 # Getting Started with Create React App
