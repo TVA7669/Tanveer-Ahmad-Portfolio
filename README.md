@@ -12,7 +12,7 @@
 
 <ul>
     <li><a href='https://www.facebook.com/tanveer.ahmad.dev/'> Follow me on Faceobook.</li>
-    <li><a href='https://tanveer-portfoilo.vercel.app/'> Website.</li>
+    <li><a href='https://wd-5-personal-portfolio-byte.vercel.app/'> Website.</li>
     <li><a href='mailto: jamtanveerab@gmail.com'> E-mail </li>
 </ul>
 
