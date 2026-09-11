@@ -7,11 +7,11 @@ import AiExpertise from "./AiExpertise";
 import "../assets/css/style.css";
 
 // Images
-import MyImg from "../assets/img/main.png";
-import homeowner from "../assets/img/hoc.png";
-import instaflow from "../assets/img/instaflow.png"; // Using agecalculator.png as placeholder for InstaFlow
-import hocBackend from "../assets/img/hocbackend.png"; // Using socialmediabackend.png as placeholder for HOC Backend
-import chessArena from "../assets/img/chess.png";
+import MyImg from "../assets/img/Tanveer_Ahmad.png";
+import TextUtils from "../assets/img/TextUtils.png";
+import Amazone_Clone from "../assets/img/Amazone_Clone.png"; // Using agecalculator.png as placeholder for InstaFlow
+import Rock_Paper from "../assets/img/Rock_Paper.png"; // Using socialmediabackend.png as placeholder for HOC Backend
+import Tic_Toc_Toe from "../assets/img/TicTocToe.png";
 import iNoteBook from "../assets/img/iNoteBook.png"
 import Weather from "../assets/img/Weather.png"  // Using ethermint.png as placeholder for Blockchain Chess Arena
 import Todo_App from "../assets/img/todo.png"  // Using ethermint.png as placeholder for Blockchain Chess Arena
@@ -22,50 +22,50 @@ import Card from "./Card";
 const Portfolio = () => {
   const projects = [
     {
-      image: instaflow,
+      image: Amazone_Clone,
       title: "Amazon-Style Product Page — Built with HTML & CSS (Static Layout)",
       description:
         "This project is a fixed-width, non-responsive static replica of an Amazon product page, built entirely using HTML5 and CSS3. It focuses on visual design, layout structure, and styling accuracy — without JavaScript or responsive breakpoints.",
-      link: "https://github.com/jamtanveerab-web",
+      link: "https://github.com/jamtanveerab-web/Amazon-Clone",
     },
     {
-      image: hocBackend,
+      image: Rock_Paper,
       title: "Rock Paper Scissors Game — Interactive Web Game with HTML, CSS & JavaScript",
       description:
         "This is a fully interactive Rock Paper Scissors game where players compete against the computer. Built with HTML, CSS, and JavaScript, it features a clean, modern interface with real-time gameplay, score tracking, and visual feedback — all within a single webpage.",
-      link: "https://github.com/jamtanveerab-web",
+      link: "https://github.com/jamtanveerab-web/rock-paper-scissors",
     },
     {
-      image: chessArena,
+      image: Tic_Toc_Toe,
       title: "Tic Tac Toe Game — Classic Two-Player Game with HTML, CSS & JavaScript",
       description:
         "This is a fully functional Tic Tac Toe (Noughts and Crosses) game designed for two players. Built with HTML, CSS, and JavaScript, it features a clean, modern interface with real-time gameplay, win detection, move tracking, and an interactive 3x3 grid — all within a single webpage.",
-      link: "https://github.com/jamtanveerab-web",
+      link: "https://github.com/jamtanveerab-web/WD_4_Tic_Tac_Toe_byte",
     },
     {
-      image: homeowner,
+      image: TextUtils,
       title: "TextUtils — Text Manipulation Web App Built with React.js",
       description:
-        "Developed Home Owner Club, a platform built for everyone who wants to participate in the international property and real estate market. The platform connects property buyers, sellers, and investors worldwide, providing tools for property listing, searching, and investment analysis. Features include user authentication, property management, interactive maps, messaging system, and payment processing. Built with modern web technologies to ensure a seamless user experience.",
-      link: "https://github.com/jamtanveerab-web",
+        "A React-based utility app for quick text editing tasks — convert text to uppercase/lowercase, trim extra spaces, and copy or clear text instantly. Includes a live word and character counter, plus a light/dark mode toggle for comfortable use.",
+      link: "https://github.com/jamtanveerab-web/TextUtilis",
     },
     {
       image: iNoteBook,
       title :"iNotebook – Full-Stack Notes App",
       description:"A full-stack MERN note-taking app with secure user authentication. Users can sign up, log in, and create, edit, and delete personal notes — all protected via JWT-based auth, with a React frontend and Express/MongoDB backend.",
-      link: "https://github.com/jamtanveerab-web",
+      link: "https://github.com/jamtanveerab-web/iNotebook",
     },
     {
       image: Todo_App ,
       title :"Todo Management App | React + Redux",
       description:"A responsive task management app built with React and Redux, featuring task creation, completion, filtering, and centralized state management with a clean, user-friendly interface.",
-      link: "https://github.com/jamtanveerab-web",
+      link: "https://github.com/jamtanveerab-web/Todo-App",
     },
      {
       image: Weather,
       title :"PkMausam — Pakistan Weather App",
       description:"PkMausam is a weather web app that displays real-time weather data for major Pakistani cities. Built with a clean, responsive UI for quick, at-a-glance forecasts.",
-      link: "https://github.com/jamtanveerab-web",
+      link: "https://github.com/jamtanveerab-web/Weather-Application",
     }
   ];
 
