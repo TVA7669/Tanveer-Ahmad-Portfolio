@@ -1,4 +1,3 @@
-About Me
 Live Portfolio: Click Here
 
 <a href="https://tanveer-portfoilo.vercel.app/" target="_blank"> <img src="./src/assets/img/portfolio.png" alt="My Portfolio"> </a>
