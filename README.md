@@ -1,8 +1,7 @@
-## About me page.
-##### live link: <a href='https://tanveer-portfoilo.vercel.app/'>
+About Me
+Live Portfolio: Click Here
 
-<img src="./src/assets//img/portfolio.png">
-
+<a href="https://tanveer-portfoilo.vercel.app/" target="_blank"> <img src="./src/assets/img/portfolio.png" alt="My Portfolio"> </a>
 
 
 
